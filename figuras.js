@@ -37,9 +37,9 @@ console.log(
   `Radio y Diametro del Circulo miden: ${radio}cm, ${diametro}cm, ${PI}cm`
 );
 
-const perimetroCirculo = Math.round(diametro + PI);
+const perimetroCirculo = diametro + PI;
 console.log("El perimetro del Circulo es: " + perimetroCirculo + "cm");
 
-const areaCirculo = Math.round(PI * (radio * radio));
+const areaCirculo = PI * (radio * radio);
 console.log("El área del triangulo es: " + areaCirculo + "cm2");
 console.groupEnd();
